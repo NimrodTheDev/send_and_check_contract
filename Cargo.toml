@@ -1,0 +1,17 @@
+[package]
+name = "SendAndCheckSeiContract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cosmwasm-schema = "2.2.0"
+cosmwasm-std = "2.2.0"
+cw-multi-test = "2.2.0"
+cw-storage-plus = "2.0.0"
+cw-utils = "2.0.0"
+serde = "1.0.217"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+
